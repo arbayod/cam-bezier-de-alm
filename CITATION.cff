@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the accompanying paper
+  (preferred-citation below) and, if relevant, this software.
+type: software
+title: >-
+  Multi-parameter Bézier optimization of cam mechanisms with negative
+  radius follower: DE + ALM optimizer and cam-profile generator
+abstract: >-
+  Python code that maximizes the follower lift of a cam with a
+  negative-radius follower driven by a Bézier motion law with two free
+  ordinates, using Differential Evolution, an Augmented Lagrangian Method
+  for the no-undercutting and pressure-angle constraints, and a periodic
+  local search. A second script draws the cam profile of a given design
+  and exports its coordinates.
+authors:
+  - family-names: Revuelta-Bayod
+    given-names: Antonio
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0.0
+date-released: "2026-11-07"
+license: MIT
+# repository-code: "https://github.com/arbayod/REPOSITORY-NAME"
+keywords:
+  - cam mechanisms
+  - negative radius follower
+  - Bézier curves
+  - differential evolution
+  - augmented Lagrangian
+  - constrained optimization
+preferred-citation:
+  type: article
+  title: >-
+    Multi-parameter Bézier optimization of cam mechanisms with negative
+    radius follower using Augmented Lagrangian Differential Evolution
+  authors:
+    - family-names: Revuelta-Bayod
+      given-names: Antonio
+  year: 2026
+  journal: SSRN Preprint
+  doi: 10.2139/ssrn.7275640
+  url: "https://ssrn.com/abstract=7275640"
+references:
+  - type: article
+    title: Design of cams with negative radius follower using Bézier curves
+    authors:
+      - family-names: Hidalgo-Martínez
+        given-names: M.
+      - family-names: Sanmiguel-Rojas
+        given-names: E.
+      - family-names: Burgos
+        given-names: M.A.
+    journal: Mechanism and Machine Theory
+    volume: 82
+    start: 87
+    end: 96
+    year: 2014
+    doi: 10.1016/j.mechmachtheory.2014.08.001
