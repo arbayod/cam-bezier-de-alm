@@ -16,11 +16,12 @@ abstract: >-
 authors:
   - family-names: Revuelta-Bayod
     given-names: Antonio
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # orcid: "https://orcid.org/0009-0003-7403-9178"
 version: 1.0.0
 date-released: "2026-11-07"
 license: MIT
 # repository-code: "https://github.com/arbayod/REPOSITORY-NAME"
+DOI: 10.5281/zenodo.24042590
 keywords:
   - cam mechanisms
   - negative radius follower
