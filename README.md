@@ -3,7 +3,7 @@
 Python code for the paper
 
 > A. Revuelta-Bayod, *Multi-parameter Bézier optimization of cam mechanisms with negative radius follower using Augmented Lagrangian Differential Evolution*, 2026.
-> SSRN: <https://ssrn.com/abstract=7275640> · DOI: [10.2139/ssrn.7275640](http://dx.doi.org/10.2139/ssrn.7275640)
+> SSRN: <https://ssrn.com/abstract=7275640> · DOI: [10.2139/ssrn.7275640](http://dx.doi.org/10.2139/ssrn.7275640) 10.5281/zenodo.24042590
 
 The paper extends the single-parameter Bézier design of Hidalgo-Martínez et al. (2014) by freeing two Bézier ordinates. It then maximizes the follower lift with Differential Evolution (DE), an Augmented Lagrangian Method (ALM) for the constraints and a short local search. The constraints are no undercutting (ρ/|R<sub>f</sub>| ≤ 1) and a pressure angle φ ≤ 41°.
 
